@@ -1,0 +1,137 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Contact — NovaForge</title>
+    <meta
+      name="description"
+      content="Get in touch with NovaForge — we reply within 24 hours."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Space+Grotesk:wght@600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" href="data:," />
+  </head>
+  <body>
+    <nav>
+      <div class="container">
+        <a href="index.html" class="logo">NovaForge</a>
+        <ul class="nav-links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="portfolio.html">Portfolio</a></li>
+          <li><a href="contact.html" class="active">Contact</a></li>
+        </ul>
+        <button class="hamburger">☰</button>
+      </div>
+    </nav>
+
+    <section class="hero" style="min-height: 50vh">
+      <div class="container">
+        <div class="hero-content">
+          <h1>Let's <span>Talk</span>.</h1>
+          <p>
+            Tell us about your project. We reply to every serious inquiry within
+            24 hours.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="container">
+        <h2 class="section-title">Send a Message</h2>
+        <p class="section-sub">Fields marked * are required.</p>
+        <form id="contactForm">
+          <input type="text" name="name" placeholder="Your name *" required />
+          <input
+            type="email"
+            name="email"
+            placeholder="Email address *"
+            required
+          />
+          <input type="text" name="company" placeholder="Company (optional)" />
+          <textarea
+            name="message"
+            placeholder="Tell us about your project *"
+            required
+          ></textarea>
+          <button type="submit" class="btn btn-primary">Send Message</button>
+        </form>
+      </div>
+    </section>
+
+    <section style="background: var(--surface)">
+      <div class="container">
+        <h2 class="section-title">Other Ways to Reach Us</h2>
+        <p class="section-sub">Pick whatever works for you.</p>
+        <div class="grid">
+          <div class="card tilt">
+            <div class="card-icon">📧</div>
+            <h3>Email</h3>
+            <p>hello@novaforge.dev</p>
+          </div>
+          <div class="card tilt">
+            <div class="card-icon">📱</div>
+            <h3>Phone</h3>
+            <p>+92 300 1234567</p>
+          </div>
+          <div class="card tilt">
+            <div class="card-icon">📍</div>
+            <h3>Studio</h3>
+            <p>Karachi, Pakistan</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <div class="container">
+        <div class="footer-grid">
+          <div>
+            <div class="logo">NovaForge</div>
+            <p style="color: var(--muted); margin-top: 12px; font-size: 0.9rem">
+              Premium web development studio.
+            </p>
+          </div>
+          <div>
+            <h4>Pages</h4>
+            <a href="about.html">About</a>
+            <a href="services.html">Services</a>
+            <a href="portfolio.html">Portfolio</a>
+            <a href="contact.html">Contact</a>
+          </div>
+          <div>
+            <h4>Contact</h4>
+            <a href="mailto:hello@novaforge.dev">hello@novaforge.dev</a>
+            <a href="#">Twitter</a>
+            <a href="#">LinkedIn</a>
+          </div>
+        </div>
+        <div class="footer-bottom">© 2025 NovaForge. All rights reserved.</div>
+      </div>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+    <script src="main.js"></script>
+    <script>
+      const form = document.getElementById("contactForm");
+      if (form) {
+        form.addEventListener("submit", (e) => {
+          e.preventDefault();
+          const name = form.querySelector('[name="name"]').value.trim();
+          alert(
+            `Thanks, ${name}! We received your message and will reply within 24 hours.`,
+          );
+          form.reset();
+        });
+      }
+    </script>
+  </body>
+</html>

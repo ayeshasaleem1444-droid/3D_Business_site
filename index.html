@@ -1,0 +1,118 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>NovaForge — Premium Web Development Studio</title>
+    <meta
+      name="description"
+      content="NovaForge builds premium, high-performance websites for ambitious brands."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Space+Grotesk:wght@600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" href="data:," />
+  </head>
+  <body>
+    <nav>
+      <div class="container">
+        <a href="index.html" class="logo">NovaForge</a>
+        <ul class="nav-links">
+          <li><a href="index.html" class="active">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="portfolio.html">Portfolio</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+        <button class="hamburger">☰</button>
+      </div>
+    </nav>
+
+    <section class="hero">
+      <canvas id="hero-canvas"></canvas>
+      <div class="container">
+        <div class="hero-content">
+          <h1>We build <span>premium websites</span> that convert.</h1>
+          <p>
+            NovaForge is a design-led development studio crafting fast,
+            animated, and unforgettable digital experiences for ambitious
+            brands.
+          </p>
+          <div class="hero-buttons">
+            <a href="contact.html" class="btn btn-primary">Start a Project</a>
+            <a href="portfolio.html" class="btn btn-ghost">View Work</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="container">
+        <h2 class="section-title">What We Do</h2>
+        <p class="section-sub">
+          End-to-end web development services built for growth.
+        </p>
+        <div class="grid">
+          <div class="card tilt">
+            <div class="card-icon">⚡</div>
+            <h3>Web Development</h3>
+            <p>
+              Blazing-fast, accessible sites built with modern stacks and clean
+              code.
+            </p>
+          </div>
+          <div class="card tilt">
+            <div class="card-icon">🎨</div>
+            <h3>UI/UX Design</h3>
+            <p>
+              Interfaces that feel premium and guide users effortlessly to
+              action.
+            </p>
+          </div>
+          <div class="card tilt">
+            <div class="card-icon">🧊</div>
+            <h3>3D & Motion</h3>
+            <p>
+              Subtle 3D and scroll animations that elevate — never distract.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <div class="container">
+        <div class="footer-grid">
+          <div>
+            <div class="logo">NovaForge</div>
+            <p style="color: var(--muted); margin-top: 12px; font-size: 0.9rem">
+              Premium web development studio.
+            </p>
+          </div>
+          <div>
+            <h4>Pages</h4>
+            <a href="about.html">About</a>
+            <a href="services.html">Services</a>
+            <a href="portfolio.html">Portfolio</a>
+            <a href="contact.html">Contact</a>
+          </div>
+          <div>
+            <h4>Contact</h4>
+            <a href="mailto:hello@novaforge.dev">hello@novaforge.dev</a>
+            <a href="#">Twitter</a>
+            <a href="#">LinkedIn</a>
+          </div>
+        </div>
+        <div class="footer-bottom">© 2025 NovaForge. All rights reserved.</div>
+      </div>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+    <script src="main.js"></script>
+  </body>
+</html>
