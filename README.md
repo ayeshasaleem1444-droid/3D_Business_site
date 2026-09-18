@@ -65,7 +65,6 @@ Deployed on Netlify — https://joyful-banoffee-5edacc.netlify.app
 
 ## Author
 
-YOUR NAME
-YOUR ROLL NUMBER
+
 Week 4 — Advanced Web Development
 September 2026
