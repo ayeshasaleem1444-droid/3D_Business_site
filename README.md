@@ -1,7 +1,9 @@
-# NovaForge — Week 4 Premium 3D Business Website
+# NovaForge —  Premium 3D Business Website
+
+A premium 3D business website for a web development studio, with animated 3D visuals and smooth scroll interactions.
 
 **Live URL:** https://joyful-banoffee-5edacc.netlify.app
-**Repo:** https://github.com/YOUR-USERNAME/week4-webdev
+**Repo:** https://github.com//ayeshasaleem1444-droid/3D_Business_site
 
 ## Project Overview
 
@@ -65,6 +67,5 @@ Deployed on Netlify — https://joyful-banoffee-5edacc.netlify.app
 
 ## Author
 
-
-Week 4 — Advanced Web Development
-September 2026
+Ayesha Saleem — https://github.com/ayeshasaleem1444-droid
+Week 4 — Advanced Web Development - September 2026
