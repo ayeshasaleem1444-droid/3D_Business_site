@@ -30,7 +30,7 @@ I designed NovaForge as a premium web development studio targeting ambitious bra
 
 ## File Structure
 
-week-4-task/
+3D_Business_site/
 ├── index.html → Home page (3D hero)
 ├── about.html → About page (mission, timeline, team)
 ├── services.html → Services page (offerings + pricing)
