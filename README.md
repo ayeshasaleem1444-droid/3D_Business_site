@@ -28,6 +28,7 @@ I designed NovaForge as a premium web development studio targeting ambitious bra
 - Clean console — zero errors or warnings
 - Lighthouse — Desktop: 90+ across all metrics; Mobile: optimized for performance
 ## Screenshots
+![NovaForge home page](screenshots/01_Home_desktop.png)
 
 ## File Structure
 
