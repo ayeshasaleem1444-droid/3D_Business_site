@@ -27,6 +27,7 @@ I designed NovaForge as a premium web development studio targeting ambitious bra
 - Custom 3D color palette — dark navy with violet/cyan gradient accents
 - Clean console — zero errors or warnings
 - Lighthouse — Desktop: 90+ across all metrics; Mobile: optimized for performance
+## Screenshots
 
 ## File Structure
 
